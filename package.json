@@ -1,0 +1,31 @@
+{
+  "name": "cypresshelpers",
+  "version": "1.0.0",
+  "description": "cypress helpers for testing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danreale/cypresshelpers.git"
+  },
+  "keywords": [
+    "cypress",
+    "helpers"
+  ],
+  "author": "Dan Reale",
+  "license": "ISC",
+  "peerDependencies": {
+    "cypress": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  },
+  "bugs": {
+    "url": "https://github.com/danreale/cypresshelpers/issues"
+  },
+  "homepage": "https://github.com/danreale/cypresshelpers#readme"
+}
