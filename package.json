@@ -2,15 +2,15 @@
   "name": "cypresshelpers",
   "version": "1.0.4",
   "description": "cypress helpers for testing",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm dist/* && tsc"
+    "build": "rm index.js && rm index.d.ts && tsc"
   },
   "files": [
-    "dist/index.js",
-    "dist/index.d.ts"
+    "index.js",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",

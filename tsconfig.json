@@ -3,9 +3,9 @@
     "target": "es6",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": ".",
     "strict": true
   },
   "include": ["**/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "index.d.ts"]
 }
