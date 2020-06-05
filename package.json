@@ -10,8 +10,7 @@
   },
   "files": [
     "dist/index.js",
-    "dist/index.d.ts",
-    "index.ts"
+    "dist/index.d.ts"
   ],
   "repository": {
     "type": "git",
@@ -24,7 +23,7 @@
   "author": "Dan Reale",
   "license": "ISC",
   "peerDependencies": {
-    "cypress": "^4.0.0"
+    "cypress": ">=4.7.0"
   },
   "devDependencies": {
     "typescript": "^3.9.5"
