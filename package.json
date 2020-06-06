@@ -10,7 +10,8 @@
   },
   "files": [
     "index.js",
-    "index.d.ts"
+    "index.d.ts",
+    "README.md"
   ],
   "repository": {
     "type": "git",
